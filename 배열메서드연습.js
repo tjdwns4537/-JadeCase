@@ -5,7 +5,7 @@ var arr = [
 ];
 console.log(arr.x1)
 var arr2 =null;
-arr2 = arr.map(obj=>{
+arr2 = arr.map((obj)=>{
     return {
       x1: obj.x1,
       x2: obj.x2,
